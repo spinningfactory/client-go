@@ -1,6 +1,6 @@
 // Forex - Previous Close
 // https://polygon.io/docs/forex/get_v2_aggs_ticker__forexticker__prev
-// https://github.com/dhiaayachi/client-go/blob/master/rest/aggs.go
+// https://github.com/spinningfactory/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
-	"github.com/dhiaayachi/client-go/rest/models"
+	polygon "github.com/spinningfactory/client-go/rest"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func main() {

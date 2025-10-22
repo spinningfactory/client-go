@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
-	"github.com/dhiaayachi/client-go/rest/models"
+	polygon "github.com/spinningfactory/client-go/rest"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func main() {
