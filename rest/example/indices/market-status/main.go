@@ -1,6 +1,6 @@
 // Indices - Market Status
 // https://polygon.io/docs/indices/get_v1_marketstatus_now
-// https://github.com/dhiaayachi/client-go/blob/master/rest/reference.go
+// https://github.com/spinningfactory/client-go/blob/master/rest/reference.go
 package main
 
 import (
@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
+	polygon "github.com/spinningfactory/client-go/rest"
 )
 
 func main() {
