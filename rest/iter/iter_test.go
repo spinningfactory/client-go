@@ -9,9 +9,9 @@ import (
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/polygon-io/client-go/rest/client"
-	"github.com/polygon-io/client-go/rest/iter"
-	"github.com/polygon-io/client-go/rest/models"
+	"github.com/dhiaaayachi/client-go/rest/client"
+	"github.com/dhiaaayachi/client-go/rest/iter"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 const (

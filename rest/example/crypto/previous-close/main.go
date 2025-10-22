@@ -1,6 +1,6 @@
 // Crypto - Previous Close
 // https://polygon.io/docs/crypto/get_v2_aggs_ticker__cryptoticker__prev
-// https://github.com/polygon-io/client-go/blob/master/rest/aggs.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

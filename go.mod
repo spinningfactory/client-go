@@ -1,4 +1,4 @@
-module github.com/polygon-io/client-go
+module github.com/dhiaaayachi/client-go
 
 go 1.21
 

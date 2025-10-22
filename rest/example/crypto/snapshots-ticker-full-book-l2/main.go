@@ -1,6 +1,6 @@
 // Crypto - Ticker Full Book (L2)
 // https://polygon.io/docs/crypto/get_v2_snapshot_locale_global_markets_crypto_tickers__ticker__book
-// https://github.com/polygon-io/client-go/blob/master/rest/snapshot.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/snapshot.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

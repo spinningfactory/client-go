@@ -1,6 +1,6 @@
 // Options - Options Chain
 // https://polygon.io/docs/options/get_v3_snapshot_options__underlyingasset
-// https://github.com/polygon-io/client-go/blob/master/rest/snapshot.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/snapshot.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

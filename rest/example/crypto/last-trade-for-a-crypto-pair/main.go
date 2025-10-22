@@ -1,6 +1,6 @@
 // Crypto - Last Trade for a Crypto Pair
 // https://polygon.io/docs/crypto/get_v1_last_crypto__from___to
-// https://github.com/polygon-io/client-go/blob/master/rest/trades.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/trades.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

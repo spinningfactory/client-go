@@ -1,6 +1,6 @@
 // Crypto - Exponential Moving Average (EMA)
 // https://polygon.io/docs/crypto/get_v1_indicators_ema__cryptoticker
-// https://github.com/polygon-io/client-go/blob/master/rest/indicators.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

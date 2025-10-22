@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/client-go/rest/encoder"
-	"github.com/polygon-io/client-go/rest/models"
+	"github.com/dhiaaayachi/client-go/rest/encoder"
+	"github.com/dhiaaayachi/client-go/rest/models"
 	"github.com/stretchr/testify/assert"
 )
 

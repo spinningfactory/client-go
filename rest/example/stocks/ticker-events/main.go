@@ -1,6 +1,6 @@
 // Stocks - Ticker Events
 // https://polygon.io/docs/stocks/get_vx_reference_tickers__id__events
-// https://github.com/polygon-io/client-go/blob/master/rest/vx.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/vx.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

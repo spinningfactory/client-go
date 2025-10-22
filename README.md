@@ -24,13 +24,13 @@ Next, initialize a new module for dependency management. This creates a `go.mod`
 go mod init example
 ```
 
-Then, create a `main.go` file. For quick start, you can find over 100+ [example code snippets](https://github.com/polygon-io/client-go/tree/master/rest/example) that demonstrate connecting to both the REST and WebSocket APIs. Here's an example that fetches the last trade for `AAPL`.
+Then, create a `main.go` file. For quick start, you can find over 100+ [example code snippets](https://github.com/dhiaaayachi/client-go/tree/master/rest/example) that demonstrate connecting to both the REST and WebSocket APIs. Here's an example that fetches the last trade for `AAPL`.
 
 ```bash
 cat > main.go <<EOF
 // Stocks - Last Trade
 // https://polygon.io/docs/stocks/get_v2_last_trade__stocksticker
-// https://github.com/polygon-io/client-go/blob/master/rest/trades.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/trades.go
 package main
 
 import (
@@ -38,8 +38,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {
@@ -90,8 +90,8 @@ To get started, you'll need to import two main packages.
 
 ```golang
 import (
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 ```
 
@@ -225,8 +225,8 @@ Import the WebSocket client and models packages to get started.
 
 ```golang
 import (
-    polygonws "github.com/polygon-io/client-go/websocket"
-    "github.com/polygon-io/client-go/websocket/models"
+    polygonws "github.com/dhiaaayachi/client-go/websocket"
+    "github.com/dhiaaayachi/client-go/websocket/models"
 )
 ```
 
@@ -295,17 +295,17 @@ There are a couple exceptions to this. When we find small breaking issues with t
 
 ## Contributing
 
-If you found a bug or have an idea for a new feature, please first discuss it with us by [submitting a new issue](https://github.com/polygon-io/client-go/issues/new/choose). We will respond to issues within at most 3 weeks. We're also open to volunteers if you want to submit a PR for any open issues but please discuss it with us beforehand. PRs that aren't linked to an existing issue or discussed with us ahead of time will generally be declined. If you have more general feedback or want to discuss using this client with other users, feel free to reach out on our [Slack channel](https://polygon-io.slack.com/archives/C03FCSBSAFL).
+If you found a bug or have an idea for a new feature, please first discuss it with us by [submitting a new issue](https://github.com/dhiaaayachi/client-go/issues/new/choose). We will respond to issues within at most 3 weeks. We're also open to volunteers if you want to submit a PR for any open issues but please discuss it with us beforehand. PRs that aren't linked to an existing issue or discussed with us ahead of time will generally be declined. If you have more general feedback or want to discuss using this client with other users, feel free to reach out on our [Slack channel](https://polygon-io.slack.com/archives/C03FCSBSAFL).
 
 -------------------------------------------------------------------------------
 
-[doc-img]: https://pkg.go.dev/badge/github.com/polygon-io/client-go
-[doc]: https://pkg.go.dev/github.com/polygon-io/client-go
-[rest-doc-img]: https://pkg.go.dev/badge/github.com/polygon-io/client-go/rest
-[rest-doc]: https://pkg.go.dev/github.com/polygon-io/client-go/rest
-[ws-doc-img]: https://pkg.go.dev/badge/github.com/polygon-io/client-go/websocket
-[ws-doc]: https://pkg.go.dev/github.com/polygon-io/client-go/websocket
-[build-img]: https://github.com/polygon-io/client-go/actions/workflows/test.yml/badge.svg
-[build]: https://github.com/polygon-io/client-go/actions
-[report-card-img]: https://goreportcard.com/badge/github.com/polygon-io/client-go
-[report-card]: https://goreportcard.com/report/github.com/polygon-io/client-go
+[doc-img]: https://pkg.go.dev/badge/github.com/dhiaaayachi/client-go
+[doc]: https://pkg.go.dev/github.com/dhiaaayachi/client-go
+[rest-doc-img]: https://pkg.go.dev/badge/github.com/dhiaaayachi/client-go/rest
+[rest-doc]: https://pkg.go.dev/github.com/dhiaaayachi/client-go/rest
+[ws-doc-img]: https://pkg.go.dev/badge/github.com/dhiaaayachi/client-go/websocket
+[ws-doc]: https://pkg.go.dev/github.com/dhiaaayachi/client-go/websocket
+[build-img]: https://github.com/dhiaaayachi/client-go/actions/workflows/test.yml/badge.svg
+[build]: https://github.com/dhiaaayachi/client-go/actions
+[report-card-img]: https://goreportcard.com/badge/github.com/dhiaaayachi/client-go
+[report-card]: https://goreportcard.com/report/github.com/dhiaaayachi/client-go

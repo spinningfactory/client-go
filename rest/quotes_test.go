@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 	"github.com/jarcoal/httpmock"
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
 	"github.com/stretchr/testify/assert"
 )
 
