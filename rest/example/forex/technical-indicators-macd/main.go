@@ -1,6 +1,6 @@
 // Forex - Moving Average Convergence/Divergence (MACD)
 // https://polygon.io/docs/forex/get_v1_indicators_macd__fxticker
-// https://github.com/polygon-io/client-go/blob/master/rest/indicators.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

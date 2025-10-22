@@ -1,6 +1,6 @@
 // Crypto - Daily Open/Close
 // https://polygon.io/docs/crypto/get_v1_open-close_crypto__from___to___date
-// https://github.com/polygon-io/client-go/blob/master/rest/aggs.go
+// https://github.com/dhiaaayachi/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/polygon-io/client-go/rest"
-	"github.com/polygon-io/client-go/rest/models"
+	polygon "github.com/dhiaaayachi/client-go/rest"
+	"github.com/dhiaaayachi/client-go/rest/models"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"os"
 	"os/signal"
 
-	polygonws "github.com/polygon-io/client-go/websocket"
-	"github.com/polygon-io/client-go/websocket/models"
+	polygonws "github.com/dhiaaayachi/client-go/websocket"
+	"github.com/dhiaaayachi/client-go/websocket/models"
 	"github.com/sirupsen/logrus"
 )
 

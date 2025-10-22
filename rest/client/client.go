@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dhiaaayachi/client-go/rest/encoder"
+	"github.com/dhiaaayachi/client-go/rest/models"
 	"github.com/go-resty/resty/v2"
-	"github.com/polygon-io/client-go/rest/encoder"
-	"github.com/polygon-io/client-go/rest/models"
 )
 
 const clientVersion = "v1.16.0"
