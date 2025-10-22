@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dhiaayachi/client-go/rest/encoder"
+	"github.com/dhiaayachi/client-go/rest/models"
 	"github.com/go-resty/resty/v2"
-	"github.com/spinningfactory/client-go/rest/encoder"
-	"github.com/spinningfactory/client-go/rest/models"
 )
 
 const clientVersion = "v1.16.0"

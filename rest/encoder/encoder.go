@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dhiaayachi/client-go/rest/models"
 	"github.com/go-playground/form/v4"
 	"github.com/go-playground/validator/v10"
-	"github.com/spinningfactory/client-go/rest/models"
 )
 
 // Encoder defines a path and query param encoder that plays nicely with the Polygon REST API.
