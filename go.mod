@@ -1,5 +1,4 @@
-// Deprecated: use github.com/spinningfactory/client-go
-module github.com/dhiaayachi/client-go
+module github.com/spinningfactory/client-go
 
 go 1.21
 

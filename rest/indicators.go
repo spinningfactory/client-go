@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/dhiaayachi/client-go/rest/client"
-	"github.com/dhiaayachi/client-go/rest/models"
+	"github.com/spinningfactory/client-go/rest/client"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 const (

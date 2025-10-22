@@ -1,6 +1,6 @@
 // Forex - Grouped Daily (Bars)
 // https://polygon.io/docs/forex/get_v2_aggs_grouped_locale_global_market_fx__date
-// https://github.com/dhiaayachi/client-go/blob/master/rest/aggs.go
+// https://github.com/spinningfactory/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
-	"github.com/dhiaayachi/client-go/rest/models"
+	polygon "github.com/spinningfactory/client-go/rest"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func main() {
