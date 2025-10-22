@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/dhiaaayachi/client-go/websocket/models"
+	"github.com/dhiaayachi/client-go/websocket/models"
 	"github.com/gorilla/websocket"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"

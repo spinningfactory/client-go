@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dhiaaayachi/client-go/rest/models"
+	"github.com/dhiaayachi/client-go/rest/models"
 	"github.com/stretchr/testify/assert"
 )
 

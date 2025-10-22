@@ -1,6 +1,6 @@
 // Stocks - Ticker Details v3
 // https://polygon.io/docs/stocks/get_v3_reference_tickers__ticker
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/reference.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/reference.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

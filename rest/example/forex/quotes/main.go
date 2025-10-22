@@ -1,6 +1,6 @@
 // Forex - Quotes (BBO)
 // https://polygon.io/docs/forex/get_v3_quotes__fxticker
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/quotes.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/quotes.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

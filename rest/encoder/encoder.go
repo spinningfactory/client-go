@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dhiaaayachi/client-go/rest/models"
+	"github.com/dhiaayachi/client-go/rest/models"
 	"github.com/go-playground/form/v4"
 	"github.com/go-playground/validator/v10"
 )

@@ -1,6 +1,6 @@
 // Options - Aggregates (Bars)
 // https://polygon.io/docs/options/get_v2_aggs_ticker__optionsticker__range__multiplier___timespan___from___to
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/aggs.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

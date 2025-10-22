@@ -1,6 +1,6 @@
 // Indices - Daily Open/Close
 // https://polygon.io/docs/indices/get_v1_open-close__indicesticker___date
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/aggs.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

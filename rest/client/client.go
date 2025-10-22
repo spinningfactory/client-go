@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dhiaaayachi/client-go/rest/encoder"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	"github.com/dhiaayachi/client-go/rest/encoder"
+	"github.com/dhiaayachi/client-go/rest/models"
 	"github.com/go-resty/resty/v2"
 )
 

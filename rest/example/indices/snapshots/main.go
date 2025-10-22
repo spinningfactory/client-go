@@ -1,6 +1,6 @@
 // Indices - Snapshot
 // https://polygon.io/docs/indices/get_v3_snapshot_indices
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/snapshot.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/snapshot.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

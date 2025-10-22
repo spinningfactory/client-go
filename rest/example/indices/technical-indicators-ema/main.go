@@ -1,6 +1,6 @@
 // Indices - Exponential Moving Average (EMA)
 // https://polygon.io/docs/indices/get_v1_indicators_ema__indicesticker
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/indicators.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

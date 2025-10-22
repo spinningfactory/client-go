@@ -1,6 +1,6 @@
 // Crypto - Grouped Daily (Bars)
 // https://polygon.io/docs/crypto/get_v2_aggs_grouped_locale_global_market_crypto__date
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/aggs.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/aggs.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {
