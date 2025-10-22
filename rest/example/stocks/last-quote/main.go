@@ -1,6 +1,6 @@
 // Stocks - Last Quote (NBBO)
 // https://polygon.io/docs/stocks/get_v2_last_nbbo__stocksticker
-// https://github.com/spinningfactory/client-go/blob/master/rest/quotes.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/quotes.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/spinningfactory/client-go/rest"
-	"github.com/spinningfactory/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

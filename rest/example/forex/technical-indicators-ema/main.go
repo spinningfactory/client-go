@@ -1,6 +1,6 @@
 // Forex - Exponential Moving Average (EMA)
 // https://polygon.io/docs/forex/get_v1_indicators_ema__fxticker
-// https://github.com/spinningfactory/client-go/blob/master/rest/indicators.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/spinningfactory/client-go/rest"
-	"github.com/spinningfactory/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

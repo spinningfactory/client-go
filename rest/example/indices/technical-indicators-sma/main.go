@@ -1,6 +1,6 @@
 // Indices - Simple Moving Average (SMA)
 // https://polygon.io/docs/indices/get_v1_indicators_sma__indicesticker
-// https://github.com/spinningfactory/client-go/blob/master/rest/indicators.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/spinningfactory/client-go/rest"
-	"github.com/spinningfactory/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

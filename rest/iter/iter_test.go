@@ -9,9 +9,9 @@ import (
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/spinningfactory/client-go/rest/client"
-	"github.com/spinningfactory/client-go/rest/iter"
-	"github.com/spinningfactory/client-go/rest/models"
+	"github.com/dhiaayachi/client-go/rest/client"
+	"github.com/dhiaayachi/client-go/rest/iter"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 const (

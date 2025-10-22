@@ -1,6 +1,6 @@
 // Indices - Market Holidays
 // https://polygon.io/docs/indices/get_v1_marketstatus_upcoming
-// https://github.com/spinningfactory/client-go/blob/master/rest/reference.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/reference.go
 package main
 
 import (
@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/spinningfactory/client-go/rest"
+	polygon "github.com/dhiaayachi/client-go/rest"
 )
 
 func main() {

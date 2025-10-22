@@ -1,6 +1,6 @@
 // Options - Ticker Details v3
 // https://polygon.io/docs/options/get_v3_reference_tickers__ticker
-// https://github.com/spinningfactory/client-go/blob/master/rest/reference.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/reference.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/spinningfactory/client-go/rest"
-	"github.com/spinningfactory/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {
