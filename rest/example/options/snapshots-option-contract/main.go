@@ -1,6 +1,6 @@
 // Options - Option Contract
 // https://polygon.io/docs/options/get_v3_snapshot_options__underlyingasset___optioncontract
-// https://github.com/spinningfactory/client-go/blob/master/rest/snapshot.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/snapshot.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/spinningfactory/client-go/rest"
-	"github.com/spinningfactory/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

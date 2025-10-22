@@ -4,7 +4,7 @@ package polygon
 import (
 	"net/http"
 
-	"github.com/spinningfactory/client-go/rest/client"
+	"github.com/dhiaayachi/client-go/rest/client"
 )
 
 // Client defines a client to the Polygon REST API.

@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/spinningfactory/client-go/rest/client"
-	"github.com/spinningfactory/client-go/rest/iter"
-	"github.com/spinningfactory/client-go/rest/models"
+	"github.com/dhiaayachi/client-go/rest/client"
+	"github.com/dhiaayachi/client-go/rest/iter"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 const (
@@ -48,7 +48,7 @@ func (ac *AggsClient) ListAggs(ctx context.Context, params *models.ListAggsParam
 // For more details see https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to.
 //
 // Deprecated: This method does not return an iterator and forces users to handle pagination manually. Use
-// pkg.go.dev/github.com/spinningfactory/client-go/rest#AggsClient.ListAggs instead if you want automatic pagination.
+// pkg.go.dev/github.com/dhiaayachi/client-go/rest#AggsClient.ListAggs instead if you want automatic pagination.
 func (ac *AggsClient) GetAggs(ctx context.Context, params *models.GetAggsParams, opts ...models.RequestOption) (*models.GetAggsResponse, error) {
 	res := &models.GetAggsResponse{}
 	err := ac.Call(ctx, http.MethodGet, GetAggsPath, params, res, opts...)
