@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhiaayachi/client-go/rest/models"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func TestListStockFinancialsParams(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"os"
 	"os/signal"
 
-	polygonws "github.com/dhiaayachi/client-go/websocket"
-	"github.com/dhiaayachi/client-go/websocket/models"
 	"github.com/sirupsen/logrus"
+	polygonws "github.com/spinningfactory/client-go/websocket"
+	"github.com/spinningfactory/client-go/websocket/models"
 )
 
 func main() {
