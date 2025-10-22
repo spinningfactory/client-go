@@ -1,6 +1,6 @@
 // Stocks - Quotes (NBBO)
 // https://polygon.io/docs/stocks/get_v3_quotes__stockticker
-// https://github.com/dhiaayachi/client-go/blob/master/rest/quotes.go
+// https://github.com/spinningfactory/client-go/blob/master/rest/quotes.go
 package main
 
 import (
@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
-	"github.com/dhiaayachi/client-go/rest/models"
+	polygon "github.com/spinningfactory/client-go/rest"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func main() {
