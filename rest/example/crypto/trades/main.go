@@ -1,6 +1,6 @@
 // Crypto - Trades
 // https://polygon.io/docs/crypto/get_v3_trades__cryptoticker
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/trades.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/trades.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

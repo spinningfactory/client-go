@@ -1,4 +1,4 @@
-module github.com/dhiaaayachi/client-go
+module github.com/dhiaayachi/client-go
 
 go 1.21
 

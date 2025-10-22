@@ -1,6 +1,6 @@
 // Options - Last Trade
 // https://polygon.io/docs/options/get_v2_last_trade__optionsticker
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/trades.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/trades.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {
