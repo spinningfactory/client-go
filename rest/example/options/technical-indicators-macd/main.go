@@ -1,6 +1,6 @@
 // Options - Moving Average Convergence/Divergence (MACD)
 // https://polygon.io/docs/options/get_v1_indicators_macd__optionsticker
-// https://github.com/dhiaayachi/client-go/blob/master/rest/indicators.go
+// https://github.com/spinningfactory/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
-	"github.com/dhiaayachi/client-go/rest/models"
+	polygon "github.com/spinningfactory/client-go/rest"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func main() {

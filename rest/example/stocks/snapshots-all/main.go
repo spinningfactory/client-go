@@ -1,6 +1,6 @@
 // Stocks - Snapshot All Tickers
 // https://polygon.io/docs/stocks/get_v2_snapshot_locale_us_markets_stocks_tickers
-// https://github.com/dhiaayachi/client-go/blob/master/rest/snapshot.go
+// https://github.com/spinningfactory/client-go/blob/master/rest/snapshot.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaayachi/client-go/rest"
-	"github.com/dhiaayachi/client-go/rest/models"
+	polygon "github.com/spinningfactory/client-go/rest"
+	"github.com/spinningfactory/client-go/rest/models"
 )
 
 func main() {

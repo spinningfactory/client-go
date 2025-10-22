@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhiaayachi/client-go/websocket/models"
 	"github.com/gorilla/websocket"
 	"github.com/sirupsen/logrus"
+	"github.com/spinningfactory/client-go/websocket/models"
 	"github.com/stretchr/testify/assert"
 )
 
