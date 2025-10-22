@@ -1,6 +1,6 @@
 // Stocks - Simple Moving Average (SMA)
 // https://polygon.io/docs/stocks/get_v1_indicators_sma__stockticker
-// https://github.com/dhiaaayachi/client-go/blob/master/rest/indicators.go
+// https://github.com/dhiaayachi/client-go/blob/master/rest/indicators.go
 package main
 
 import (
@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	polygon "github.com/dhiaaayachi/client-go/rest"
-	"github.com/dhiaaayachi/client-go/rest/models"
+	polygon "github.com/dhiaayachi/client-go/rest"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func main() {

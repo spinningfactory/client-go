@@ -3,7 +3,7 @@ package iter
 import (
 	"context"
 
-	"github.com/dhiaaayachi/client-go/rest/encoder"
+	"github.com/dhiaayachi/client-go/rest/encoder"
 )
 
 // ListResponse defines an interface that list API responses must implement.
