@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spinningfactory/client-go/rest/models"
+	"github.com/dhiaayachi/client-go/rest/models"
 )
 
 func TestListQuotesParams(t *testing.T) {

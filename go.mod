@@ -1,4 +1,4 @@
-module github.com/spinningfactory/client-go
+module github.com/dhiaayachi/client-go
 
 go 1.21
 
